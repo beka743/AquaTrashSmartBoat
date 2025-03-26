@@ -96,7 +96,8 @@ export function Technology() {
                 <video 
                   controls
                   className="w-full h-auto"
-                  src="/attached_assets/IMG_0906.MOV"
+                  src={`${import.meta.env.BASE_URL}attached_assets/IMG_0906.MOV`}
+                  type="video/quicktime"
                 >
                   Your browser does not support the video tag.
                 </video>
