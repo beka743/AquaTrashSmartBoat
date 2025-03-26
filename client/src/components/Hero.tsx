@@ -66,7 +66,7 @@ export function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
-              className="aspect-video bg-gradient-to-b from-[#1B3E5D] to-[#40A0FF] rounded-lg overflow-hidden relative shadow-xl"
+              className="min-h-[350px] bg-gradient-to-b from-[#1B3E5D] to-[#40A0FF] rounded-lg overflow-hidden relative shadow-xl p-4"
             >
               <div className="absolute inset-0 flex items-center justify-center">
                 <motion.div 
@@ -78,12 +78,12 @@ export function Hero() {
                     repeat: Infinity,
                     repeatType: "loop"
                   }}
-                  className="max-w-xs"
+                  className="w-4/5 md:w-3/4 lg:w-2/3"
                 >
                   <img 
                     src={boatImage} 
                     alt="Aqua Trash SmartBoat 3D Model" 
-                    className="w-full h-auto object-contain"
+                    className="w-full h-auto object-contain max-h-[300px]"
                   />
                 </motion.div>
               </div>
