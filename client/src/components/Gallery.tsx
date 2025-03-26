@@ -5,28 +5,28 @@ import { GalleryLightbox } from "./GalleryLightbox";
 // Using random high-quality water/ocean/tech related images from Unsplash
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1527100673774-cce25eafaf7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    alt: "SmartBoat prototype on water"
+    src: "/attached_assets/photo_2025-03-26_17-40-36.jpg",
+    alt: "SmartBoat mesh material closeup"
   },
   {
-    src: "https://images.unsplash.com/photo-1621265423975-d9195d692168?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    alt: "Collection mechanism closeup"
+    src: "/attached_assets/photo_2025-03-26_17-40-54.jpg",
+    alt: "Testing mesh material setup"
   },
   {
-    src: "#",
-    alt: "Technical team working on SmartBoat"
+    src: "/attached_assets/photo_2025-03-26_17-41-12.jpg",
+    alt: "Team members working on project"
   },
   {
-    src: "https://images.unsplash.com/photo-1598520106830-8c45c2035460?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    alt: "Waste collection results"
+    src: "/attached_assets/photo_2025-03-26_17-41-34.jpg",
+    alt: "Assembling SmartBoat components"
   },
   {
-    src: "#",
-    alt: "SmartBoat navigation system"
+    src: "/attached_assets/photo_2025-03-26_17-41-45.jpg",
+    alt: "Team collaboration on design"
   },
   {
-    src: "#" ,
-    alt: "Testing in controlled environment"
+    src: "/attached_assets/image_1742993148706.png",
+    alt: "Project development process"
   }
 ];
 
