@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { WaveDivider } from "@/components/ui/wave-divider";
 import { Button } from "@/components/ui/button";
 import boatImage from "../assets/3d-boat.png";
+import trashengersLogo from "@assets/trashengers-logo.png"; // Added import for the new logo
+
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -81,8 +83,8 @@ export function Hero() {
                   className="w-4/5 md:w-3/4 lg:w-2/3"
                 >
                   <img 
-                    src={boatImage} 
-                    alt="Aqua Trash SmartBoat 3D Model" 
+                    src={trashengersLogo} // Replaced boatImage with trashengersLogo
+                    alt="Trashengers Logo" // Updated alt text
                     className="w-full h-auto object-contain max-h-[300px]"
                   />
                 </motion.div>
