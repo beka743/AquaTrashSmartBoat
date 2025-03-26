@@ -86,13 +86,21 @@ export function Technology() {
           </div>
         </div>
         
-        {/* Interactive Demo Section */}
+        {/* Demo Video Section */}
         <div className="bg-[#F5F9FA] p-8 rounded-lg">
-          <h3 className="font-heading font-semibold text-2xl mb-4 text-center">How It Works: Interactive Demonstration</h3>
+          <h3 className="font-heading font-semibold text-2xl mb-4 text-center">How It Works: Demonstration</h3>
           
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 p-4">
-              <InteractiveDemo />
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <video 
+                  controls
+                  className="w-full h-auto"
+                  src="/attached_assets/IMG_0906.MOV"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
             
             <div className="w-full lg:w-1/2 p-4">
