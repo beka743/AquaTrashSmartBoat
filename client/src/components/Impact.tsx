@@ -44,7 +44,7 @@ export function Impact() {
     {
       icon: <Leaf className="h-6 w-6" />,
       title: "Sustainable Operation",
-      description: "Our boat design ensures our solution has minimal environmental impact while solving pollution problems."
+      description: "Our design ensures our solution has minimal environmental impact while solving pollution problems."
     }
   ];
   
