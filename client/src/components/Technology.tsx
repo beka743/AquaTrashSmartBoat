@@ -93,14 +93,12 @@ export function Technology() {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 p-4">
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <video 
-                  controls
-                  className="w-full h-auto"
+                <iframe
                   src={`${import.meta.env.BASE_URL}attached_assets/IMG_0906.MOV`}
-                  type="video/quicktime"
-                >
-                  Your browser does not support the video tag.
-                </video>
+                  className="w-full aspect-video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             
