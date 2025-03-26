@@ -16,22 +16,58 @@ export function Team() {
   const teamMembers: TeamMember[] = [
     {
       image: "https://randomuser.me/api/portraits/men/32.jpg",
-      name: "Dr. Alex Chen",
-      role: "Project Lead",
-      bio: "Robotics & AI Specialist with 10+ years of experience in autonomous systems.",
+      name: "Bereket Kebede Bedada",
+      role: "Mechanical Engineering student",
+      bio: " Higher colleges of Technology",
       social: {
         linkedin: "#",
-        twitter: "#"
+
       }
     },
     {
       image: "https://randomuser.me/api/portraits/women/44.jpg",
-      name: "Dr. Maya Patel",
-      role: "Environmental Scientist",
-      bio: "Specializes in aquatic ecosystems and pollution mitigation strategies.",
+      name: "Bereket Gezahegn Markos",
+      role: "Mechanical Engineering student",
+      bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        twitter: "#"
+    
+      }
+    },
+    {
+      image: "https://randomuser.me/api/portraits/men/42.jpg",
+      name: "Ahmed Hassan",
+      role: "Mechanical Engineering student",
+      bio: "Higher colleges of Technology",
+      social: {
+        linkedin: "#",
+      }
+    },
+    {
+      image: "https://randomuser.me/api/portraits/women/42.jpg",
+      name: "Fatima Ali",
+      role: "Mechanical Engineering student",
+      bio: "Higher colleges of Technology",
+      social: {
+        linkedin: "#",
+      }
+    },
+    {
+      image: "https://randomuser.me/api/portraits/men/23.jpg",
+      name: "Mohammed Rahman",
+      role: "Mechanical Engineering student",
+      bio: "Higher colleges of Technology",
+      social: {
+        linkedin: "#",
+      }
+    },
+    {
+      image: "https://randomuser.me/api/portraits/women/23.jpg",
+      name: "Aisha Mohammed",
+      role: "Mechanical Engineering student",
+      bio: "Higher colleges of Technology",
+      social: {
+        linkedin: "#",
       }
     },
     {
