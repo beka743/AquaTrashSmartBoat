@@ -91,7 +91,11 @@ export function Header() {
         {/* Mobile Navigation */}
         <motion.nav
           initial={false}
-          animate={isMobileMenuOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+          animate={
+            isMobileMenuOpen
+              ? { height: "auto", opacity: 1 }
+              : { height: 0, opacity: 0 }
+          }
           className={`overflow-hidden lg:hidden`}
         >
           <div className="px-2 pt-2 pb-4">
