@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { WaveDivider } from "@/components/ui/wave-divider";
 import { Button } from "@/components/ui/button";
 import boatImage from "../assets/3d-boat.png";
-import trashengersLogo from "@assets/trashengers-logo.png"; // Added import for the new logo
+import trashengersLogo from "../assets/trashengers-logo.png"; // Fixed import path
 
 
 export function Hero() {
