@@ -76,10 +76,10 @@ export function Impact() {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: index * 0.1, duration: 0.6 }}
-              className="bg-white text-dark p-6 rounded-lg shadow-md text-center"
+              className="bg-white text-dark p-6 rounded-lg shadow-lg text-center flex flex-col items-center justify-center space-y-3"
             >
               <StatNumber value={stat.value} isVisible={isInView} />
-              <p className="font-heading font-medium">{stat.label}</p>
+              <p className="font-heading font-semibold text-gray-800 text-lg">{stat.label}</p>
             </motion.div>
           ))}
         </div>
@@ -139,7 +139,7 @@ function StatNumber({ value, isVisible }: StatNumberProps) {
   }, [isVisible, value]);
   
   return (
-    <div className="text-[2.5rem] font-bold text-[#00A896]">
+    <div className="text-[2.75rem] font-bold text-[#00A896] pb-1 border-b-2 border-gray-200">
       {displayValue}
     </div>
   );
