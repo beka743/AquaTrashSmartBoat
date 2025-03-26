@@ -64,71 +64,8 @@ export function Technology() {
           </p>
         </motion.div>
         
-        <div className="flex flex-wrap items-center mb-16">
-          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <div className="relative mx-auto max-w-md">
-              <WaterAnimation>
-                <svg 
-                  width="100%" 
-                  height="100%" 
-                  viewBox="0 0 400 400" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="rounded-lg shadow-md"
-                >
-                  {/* Technical diagram of boat */}
-                  <rect width="400" height="400" fill="#0B2E4D" opacity="0.8" />
-                  
-                  {/* Boat outline */}
-                  <path d="M100,250 L300,250 L280,300 L120,300 Z" stroke="#38E54D" strokeWidth="2" fill="none" />
-                  <path d="M120,300 L120,350 L280,350 L280,300" stroke="#38E54D" strokeWidth="2" fill="none" />
-                  
-                  {/* Components */}
-                  <rect x="160" y="260" width="80" height="30" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="175" y="280" fill="#00A896" fontFamily="monospace" fontSize="12">CPU</text>
-                  
-                  <circle cx="140" cy="330" r="15" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="130" y="335" fill="#00A896" fontFamily="monospace" fontSize="12">M1</text>
-                  
-                  <circle cx="260" cy="330" r="15" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="250" y="335" fill="#00A896" fontFamily="monospace" fontSize="12">M2</text>
-                  
-                  <rect x="180" y="310" width="40" height="20" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="185" y="325" fill="#00A896" fontFamily="monospace" fontSize="12">BIN</text>
-                  
-                  <rect x="170" y="220" width="60" height="10" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="173" y="214" fill="#00A896" fontFamily="monospace" fontSize="12">SOLAR</text>
-                  
-                  <circle cx="200" cy="190" r="10" stroke="#00A896" strokeWidth="2" fill="none" />
-                  <text x="185" y="175" fill="#00A896" fontFamily="monospace" fontSize="12">CAM</text>
-                  
-                  {/* Sensors */}
-                  <path d="M100,250 L80,270 L80,310 L100,330" stroke="#1A5F7A" strokeWidth="2" fill="none" strokeDasharray="4" />
-                  <path d="M300,250 L320,270 L320,310 L300,330" stroke="#1A5F7A" strokeWidth="2" fill="none" strokeDasharray="4" />
-                  
-                  {/* Water detection */}
-                  <path d="M80,310 C60,320 40,320 20,310" stroke="#4DD0E1" strokeWidth="2" fill="none" />
-                  <path d="M320,310 C340,320 360,320 380,310" stroke="#4DD0E1" strokeWidth="2" fill="none" />
-                  
-                  {/* Legend */}
-                  <text x="20" y="50" fill="#FFFFFF" fontFamily="monospace" fontSize="14" fontWeight="bold">SMARTBOAT TECHNICAL DIAGRAM</text>
-                  <line x1="20" y1="70" x2="40" y2="70" stroke="#38E54D" strokeWidth="2" />
-                  <text x="50" y="75" fill="#38E54D" fontFamily="monospace" fontSize="12">Structure</text>
-                  
-                  <line x1="20" y1="90" x2="40" y2="90" stroke="#00A896" strokeWidth="2" />
-                  <text x="50" y="95" fill="#00A896" fontFamily="monospace" fontSize="12">Components</text>
-                  
-                  <line x1="20" y1="110" x2="40" y2="110" stroke="#1A5F7A" strokeWidth="2" strokeDasharray="4" />
-                  <text x="50" y="115" fill="#1A5F7A" fontFamily="monospace" fontSize="12">Sensors</text>
-                  
-                  <line x1="20" y1="130" x2="40" y2="130" stroke="#4DD0E1" strokeWidth="2" />
-                  <text x="50" y="135" fill="#4DD0E1" fontFamily="monospace" fontSize="12">Detection Range</text>
-                </svg>
-              </WaterAnimation>
-            </div>
-          </div>
-          
-          <div className="w-full lg:w-1/2">
+        <div className="mb-16">
+          <div className="w-full">
             <h3 className="font-heading font-semibold text-2xl mb-4">Key Components</h3>
             
             <motion.div 
