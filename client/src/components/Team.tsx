@@ -16,125 +16,64 @@ type TeamMember = {
 export function Team() {
   const teamMembers: TeamMember[] = [
     {
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D03AQGm3r4nWp4Slw/profile-displayphoto-shrink_400_400/B4DZR4aatLHIAk-/0/1737186979653?e=1748476800&v=beta&t=pvpeWTUHnFW4mtYS-sYp7FCSEcWrtm2HmdeFDmSvbz0",
       name: "Bereket Kebede Bedada",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
-        linkedin: "#",
-        email: "mailto:bereket.k@example.com",
+        linkedin: "www.linkedin.com/in/bereket-kebede-bedada-4a1387289",
+        email: "mailto:H00539895@hct.ac.ae",
       },
     },
     {
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      image: "#",
       name: "Bereket Gezahegn Markos",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        email: "mailto:bereket.g@example.com",
+        email: "#",
       },
     },
     {
-      image: "https://randomuser.me/api/portraits/men/42.jpg",
-      name: "Ahmed Hassan",
+      image: "#",
+      name: "Firaol Tesfaye Hailu",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        email: "mailto:ahmed.h@example.com",
+        email: "#",
       },
     },
     {
-      image: "https://randomuser.me/api/portraits/women/42.jpg",
-      name: "Fatima Ali",
+      image: "#",
+      name: "Mathias Worku Beshah ",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        email: "mailto:fatima.a@example.com",
+        email: "#",
       },
     },
     {
-      image: "https://randomuser.me/api/portraits/men/23.jpg",
-      name: "Mohammed Rahman",
+      image: "#",
+      name: "Amanuel Addisu",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        email: "mailto:mohammed.r@example.com",
+        email: "#",
       },
     },
     {
-      image: "https://randomuser.me/api/portraits/women/23.jpg",
-      name: "Aisha Mohammed",
+      image: "#",
+      name: "Firaol Denu Lute",
       role: "Mechanical Engineering student",
       bio: "Higher colleges of Technology",
       social: {
         linkedin: "#",
-        email: "mailto:aisha.m@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/men/54.jpg",
-      name: "Ibrahim Khan",
-      role: "Mechanical Engineering student",
-      bio: "Higher colleges of Technology",
-      social: {
-        linkedin: "#",
-        email: "mailto:ibrahim.k@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/women/54.jpg",
-      name: "Zahra Omar",
-      role: "Mechanical Engineering student",
-      bio: "Higher colleges of Technology",
-      social: {
-        linkedin: "#",
-        email: "mailto:zahra.o@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/men/37.jpg",
-      name: "Yasin Ahmed",
-      role: "Mechanical Engineering student",
-      bio: "Higher colleges of Technology",
-      social: {
-        linkedin: "#",
-        email: "mailto:yasin.a@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/women/37.jpg",
-      name: "Maryam Abdullah",
-      role: "Mechanical Engineering student",
-      bio: "Higher colleges of Technology",
-      social: {
-        linkedin: "#",
-        email: "mailto:maryam.a@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/men/65.jpg",
-      name: "James Wilson",
-      role: "Mechanical Engineer",
-      bio: "Designs and optimizes the waste collection mechanisms for maximum efficiency.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "mailto:james.w@example.com",
-      },
-    },
-    {
-      image: "https://randomuser.me/api/portraits/women/28.jpg",
-      name: "Sarah Nguyen",
-      role: "Software Developer",
-      bio: "Creates the AI algorithms that power the SmartBoat's navigation and collection systems.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "mailto:sarah.n@example.com",
+        email: "#",
       },
     },
   ];
@@ -166,7 +105,7 @@ export function Team() {
         >
           <h2 className="font-heading font-bold text-3xl mb-4">Our Team</h2>
           <p className="max-w-3xl mx-auto text-lg">
-            Meet the dedicated researchers and engineers behind the Aqua Trash
+            Meet the dedicated team members  behind the Aqua Trash
             SmartBoat project.
           </p>
         </motion.div>
