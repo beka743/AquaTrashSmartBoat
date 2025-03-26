@@ -13,7 +13,7 @@ const galleryImages = [
     alt: "Collection mechanism closeup"
   },
   {
-    src: "https://images.unsplash.com/photo-1516962080544-eac695c93791?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    src: "#",
     alt: "Technical team working on SmartBoat"
   },
   {
@@ -21,11 +21,11 @@ const galleryImages = [
     alt: "Waste collection results"
   },
   {
-    src: "https://images.unsplash.com/photo-1580137189272-c9379f8864fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    src: "#",
     alt: "SmartBoat navigation system"
   },
   {
-    src: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    src: "#" ,
     alt: "Testing in controlled environment"
   }
 ];

@@ -25,32 +25,7 @@ export function Footer() {
     }
   };
   
-  const newsletterMutation = useMutation({
-    mutationFn: (email: string) => {
-      return apiRequest("POST", "/api/newsletter", { email });
-    },
-    onSuccess: () => {
-      toast({
-        title: "Subscribed!",
-        description: "You've been subscribed to our newsletter.",
-      });
-      setFooterEmail("");
-    },
-    onError: (error) => {
-      toast({
-        title: "An error occurred",
-        description: error.message || "Could not subscribe. Please try again later.",
-        variant: "destructive",
-      });
-    },
-  });
-  
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (footerEmail) {
-      newsletterMutation.mutate(footerEmail);
-    }
-  };
+ 
 
   return (
     <footer className="bg-[#0B2E4D] text-white py-8">
@@ -130,6 +105,10 @@ export function Footer() {
               </li>
             </ul>
           </div>
+          
+          
+        </div>
+        
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} AquaTrash SmartBoat Project. All rights reserved.</p>
         </div>
