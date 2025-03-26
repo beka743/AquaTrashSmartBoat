@@ -53,7 +53,7 @@ export function Hero() {
               </Button>
               <Button 
                 onClick={() => scrollToSection("contact")}
-                className="bg-orange-500 text-white hover:bg-orange-600 font-heading font-semibold border-2 border-orange-500"
+                className="bg-black text-white hover:bg-gray-800 font-heading font-semibold border-2 border-black"
                 size="lg"
               >
                 Contact Us
