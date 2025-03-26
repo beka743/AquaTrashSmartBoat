@@ -3,29 +3,36 @@ import { motion } from "framer-motion";
 import { GalleryLightbox } from "./GalleryLightbox";
 
 // Using random high-quality water/ocean/tech related images from Unsplash
+import img1 from "@assets/photo_2025-03-26_17-40-36.jpg";
+import img2 from "@assets/photo_2025-03-26_17-40-54.jpg";
+import img3 from "@assets/photo_2025-03-26_17-41-12.jpg";
+import img4 from "@assets/photo_2025-03-26_17-41-34.jpg";
+import img5 from "@assets/photo_2025-03-26_17-41-45.jpg";
+import img6 from "@assets/image_1742993148706.png";
+
 const galleryImages = [
   {
-    src: "/attached_assets/photo_2025-03-26_17-40-36.jpg",
+    src: img1,
     alt: "SmartBoat mesh material closeup"
   },
   {
-    src: "/attached_assets/photo_2025-03-26_17-40-54.jpg",
+    src: img2,
     alt: "Testing mesh material setup"
   },
   {
-    src: "/attached_assets/photo_2025-03-26_17-41-12.jpg",
+    src: img3,
     alt: "Team members working on project"
   },
   {
-    src: "/attached_assets/photo_2025-03-26_17-41-34.jpg",
+    src: img4,
     alt: "Assembling SmartBoat components"
   },
   {
-    src: "/attached_assets/photo_2025-03-26_17-41-45.jpg",
+    src: img5,
     alt: "Team collaboration on design"
   },
   {
-    src: "/attached_assets/image_1742993148706.png",
+    src: img6,
     alt: "Project development process"
   }
 ];
