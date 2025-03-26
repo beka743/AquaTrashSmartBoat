@@ -21,11 +21,7 @@ export function Technology() {
       title: "Collection Mechanism",
       description: "Specialized intake system that efficiently captures floating waste without harming aquatic life."
     },
-    {
-      icon: <PanelTop className="h-5 w-5" />,
-      title: "Power Source",
-      description: "Solar-powered system with efficient energy storage for extended operation."
-    },
+    
     {
       icon: <Brain className="h-5 w-5" />,
       title: "AI Control System",
