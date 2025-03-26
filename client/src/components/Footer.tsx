@@ -73,9 +73,7 @@ export function Footer() {
               <a href="#" className="text-white hover:text-[#38E54D] transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-[#38E54D] transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
+             
             </div>
           </div>
           
@@ -132,43 +130,6 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
-            <h3 className="font-heading font-semibold text-lg mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-[#38E54D] transition-colors">Technical Documentation</a></li>
-              <li><a href="#" className="hover:text-[#38E54D] transition-colors">Research Papers</a></li>
-              <li><a href="#" className="hover:text-[#38E54D] transition-colors">Press Releases</a></li>
-              <li><a href="#" className="hover:text-[#38E54D] transition-colors">Partners</a></li>
-              <li><a href="#" className="hover:text-[#38E54D] transition-colors">Privacy Policy</a></li>
-            </ul>
-          </div>
-          
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
-            <h3 className="font-heading font-semibold text-lg mb-4">Stay Updated</h3>
-            <p className="mb-4">
-              Subscribe to our newsletter for project updates and news.
-            </p>
-            <form onSubmit={handleNewsletterSubmit} className="flex">
-              <Input
-                type="email"
-                placeholder="Your email"
-                className="bg-white text-dark rounded-r-none"
-                value={footerEmail}
-                onChange={(e) => setFooterEmail(e.target.value)}
-                required
-              />
-              <Button 
-                type="submit" 
-                className="rounded-l-none bg-[#38E54D] hover:bg-[#50F265] text-dark"
-                disabled={newsletterMutation.isPending}
-              >
-                <ArrowRight className="h-4 w-4" />
-              </Button>
-            </form>
-          </div>
-        </div>
-        
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} AquaTrash SmartBoat Project. All rights reserved.</p>
         </div>
