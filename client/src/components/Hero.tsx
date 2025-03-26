@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { WaveDivider } from "@/components/ui/wave-divider";
 import { Button } from "@/components/ui/button";
-import boatImage from "../assets/3d-boat.png";
-import trashengersLogo from "@assets/trashengers-logo.png"; // Added import for the new logo
-
+import boatImage from "../assets/3d-boat.png"; // Reverted back to the original boat image
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -72,19 +70,13 @@ export function Hero() {
             >
               <div className="absolute inset-0 flex items-center justify-center">
                 <motion.div 
-                  animate={{ 
-                    y: [0, -10, 0] 
-                  }}
-                  transition={{ 
-                    duration: 3,
-                    repeat: Infinity,
-                    repeatType: "loop"
-                  }}
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
                   className="w-4/5 md:w-3/4 lg:w-2/3"
                 >
                   <img 
-                    src={trashengersLogo} // Replaced boatImage with trashengersLogo
-                    alt="Trashengers Logo" // Updated alt text
+                    src={boatImage} // Reverted back to the original boat image
+                    alt="3D Boat Model"
                     className="w-full h-auto object-contain max-h-[300px]"
                   />
                 </motion.div>
